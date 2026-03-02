@@ -7,8 +7,8 @@ class Rally_Car(Car):
         super().__init__(make, model)
         self.model_year = myear
 
-    def Car_Info_Expl(self):
+    def Car_Info_Explain(self):
         print(f"This rally car is a {self.model_year} {self.make} {self.model}. It is all-wheel drive and is built for rally racing.")
 
 c2 = Rally_Car("Mitsubishi", "Lancer", 1993)
-c2.Car_Info_Expl()
+c2.Car_Info_Explain()
