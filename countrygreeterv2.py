@@ -20,8 +20,7 @@ if country == ("United States" or country == "USA" or country == "US" or country
         or country == "Wales" or country == "Northern Ireland" or country == "Ireland" or country == "Canada"
         or country == "Australia" or country == "New Zealand"):
     print("Hello, how are you?")
-elif country == ("México" or country == "Mexico" or country == "España" or country == "Spain" or country == "Brasil"
-        or country == "Brazil"):
+elif country == "Mexico" or country == "Spain" or country == "Brazil":
     print("¿Hola, cómo estás?")
 elif country == "La France" or country == "France":
     print("Bonjour comment allez-vous?")
