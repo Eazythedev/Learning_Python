@@ -48,14 +48,14 @@ owner_name = input()
 print(f"Hello, {owner_name}. Welcome to the Pythonville Automatic Parking Garage.")
 
 # User prompt to enter vehicle make, model, model year, weight
-print("Enter your vehicle make: ")
+print("Enter vehicle make: ")
 make = input()
 
-print("Enter your vehicle model: ")
+print("Enter vehicle model: ")
 model = input()
 
-print("Enter your vehicle model year: ")
+print("Enter vehicle model year: ")
 model_year = input()
 
-print("Enter your vehicle weight: ")
+print("Enter vehicle weight: ")
 weight = input()
