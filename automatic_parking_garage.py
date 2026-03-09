@@ -12,6 +12,7 @@ class Vehicle:
 
     # Park vehicle
     def park_vehicle(self):
+    self.owner = input("Enter your name: ")
 
     # Schedule parking
     def sch_parking(self):
