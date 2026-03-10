@@ -22,6 +22,8 @@ class Vehicle:
         self.model = input("Enter your vehicle model: ")
         self.model_year = input("Enter your vehicle model year: ")
         self.car_type = input("Enter your vehicle weight: ")
+        print("When would you like to park your vehicle?")
+        schedule = input()
         print(f"Name: ")
         print(f"Vehicle make: {self.make}.")
         print(f"Vehicle model: {self.model}.")
